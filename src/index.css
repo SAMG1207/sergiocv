@@ -1,0 +1,105 @@
+:root {
+  --main-bg-color: rgb(17, 113, 0);
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: rgb(233, 242, 150);
+}
+.main,
+.side {
+  background-color: #ffffff;
+}
+
+b {
+  font-weight: bold;
+}
+.main,
+.side {
+  margin: 0 auto;
+}
+
+.sergioImage {
+  width: 250px;
+}
+.icon {
+  height: 75px;
+  width: 75px;
+}
+
+.iconjs {
+  height: 100px;
+  width: 130px;
+}
+
+.listC {
+  /* Asegúrate de que el nombre de la clase coincida con tu JSX */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde opcional */
+  border-radius: 5px; /* Esquinas redondeadas opcionales */
+  transition: background-color 0.3s ease; /* Transición suave del color */
+  margin: 0; /* Elimina el margen para que no se expanda */
+}
+.listC:hover {
+  background-color: var(--main-bg-color);
+  cursor: pointer;
+  color: rgb(245, 245, 245);
+}
+
+.apartado {
+  display: inline-block;
+  width: auto;
+  background-color: var(--main-bg-color);
+}
+
+.childrenTitle,
+.description {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.description {
+  font-size: large;
+  text-align: justify;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .shadow-lg {
+  background-color: #1f1f1f;
+  border-color: #333;
+}
+
+.dark-mode .border {
+  border-color: #333;
+}
+
+.dark-mode h3,
+.dark-mode p {
+  color: #e0e0e0;
+}
+.dark-mode .listC:hover {
+  background-color: var(--main-bg-color);
+}
+.container-fluid,
+.container {
+  min-height: 100%;
+}
+.link {
+  position: fixed;
+  bottom: 0;
+}
+
+button {
+  position: relative;
+  margin: 0 auto;
+}
+
+.w-100 {
+  width: 100% !important; /* Asegura que el ancho sea 100% */
+}
