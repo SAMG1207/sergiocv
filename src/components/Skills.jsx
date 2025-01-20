@@ -18,7 +18,7 @@ export const Skills = () => {
                   <ul>
                     <li>PHP</li>
                     <li>JavaScript</li>
-                    <li>C# (OOP)</li>
+                    <li>C# (OOP). Net</li>
                   </ul>
                 </li>
                 <li>
@@ -33,6 +33,7 @@ export const Skills = () => {
                   <b>Databases:</b>
                   <ul>
                     <li>MySQL</li> {/* Corrección aquí */}
+                    <li>SQL Server</li>
                     <li>MongoDB</li>
                   </ul>
                 </li>

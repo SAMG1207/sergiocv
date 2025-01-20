@@ -38,6 +38,20 @@ export const Resume = () => {
         <h2 className="text-center">Professional Experience</h2>
         <ul>
           <li>
+            <h4 className="childrenTitle">E8D Soluciones</h4>
+            <h6 className="childrenTitle">nov 24 - jan 25 in Madrid</h6>
+            <p>
+              E8D Soluciones is a company that provides data services to other
+              companies.
+            </p>
+            <p>
+              Also, they develop web services and applications to their clients.
+              My tasks were: Development of a security form for employees with
+              .NET, creation of stored procedures for this application using SQL
+              Server.
+            </p>
+          </li>
+          <li>
             <h4 className="childrenTitle">Puertas Automáticas Portis</h4>
             <h6 className="childrenTitle">jul 22 - sept 24 in Madrid</h6>
             <p>
