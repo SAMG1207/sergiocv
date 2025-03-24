@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: "SmileDental.NET",
+    description:
+      "An API developed with .NET 8.0. This is the improved SmileDental project, now with .NET. It uses JWT to implement authentication and authorization",
+    links: ["https://github.com/SAMG1207/SmileDental.NET"],
+  },
+  {
     title: "Restaurante",
     description:
       "Web application for managing table service in a pizza restaurant. It is divided into two parts: the frontend, developed in React, and the backend, developed locally with PHP. This project is made using de MVC framework in the backend.",
