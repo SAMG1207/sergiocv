@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "SmileDental.NET",
     description:
-      "An API developed with .NET 8.0. This is the improved SmileDental project, now with .NET. It uses JWT to implement authentication and authorization",
+      "An API developed with .NET 8.0. This is the improved SmileDental project, now with .NET. It uses JWT to implement authentication and authorization. Currently on progress",
     links: ["https://github.com/SAMG1207/SmileDental.NET"],
   },
   {
